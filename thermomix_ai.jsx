@@ -207,7 +207,7 @@ Responde SOLO con un JSON válido con esta estructura exacta (sin markdown, sin 
     const alreadySaved = isSaved(selected.id, selected.source || "pdf");
     const fav = isFav(selected.id, selected.source || "pdf");
     const steps = selected.steps || [];
-    const [activeStep, setActiveStep] = useState(null);
+  //  const [activeStep, setActiveStep] = useState(null);
 
     return (
       <div style={S.app}>
